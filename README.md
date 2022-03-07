@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/Synertry/BLokFiller?color=lightblue)](https://github.com/Synertry/BLokFiller/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Synertry/BLokFiller?color=ADD8E6)](https://github.com/Synertry/BLokFiller/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
 
 
