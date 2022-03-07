@@ -73,12 +73,13 @@ The file at `ressources/tasks.csv`needs to be changed accordingly for that. I re
 
 A valid row needs to be filled with these:
 - Kategorie: The category for you content (umbrella term)
-- Dauer: The time for the tasks in hours. Decimals are supported with `.`  or `,`
+- Dauer: The time for the tasks in hours. Decimals are supported with `.`  or `,`, but stick to minimum 0.5 steps. More detailed times are not recommended.
 - Rating: A value for the assessment **WIP: it defaults to 2 atm**[^3]
 - Lernfeld: Which qualification the task belongs to (supports only one atm)
 - Inhalt#: Your actual content, what you would write in a normal report book with out all the extras from BLok. Each cell gets written to one line
 
 The ressources are written without umlauts *(ä, ö, ü)*. If you can, avoid them.
+Having a big list can lead to undesired side-effects.
 
 
 ## TODO
