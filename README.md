@@ -78,12 +78,14 @@ A valid row needs to be filled with these:
 - Lernfeld: Which qualification the task belongs to (supports only one atm)
 - Inhalt#: Your actual content, what you would write in a normal report book with out all the extras from BLok. Each cell gets written to one line
 
+The ressources are written without umlauts *(ä, ö, ü)*. If you can, avoid them.
+
 
 ## TODO
 
 - [x] Swap content array with hashmap for less iteration
 - [x] Write manual/README
-- [x] Have at least 100 generic tasks with proper spread of task time
+- [x] Have at least ~~100~~ 70 generic tasks with proper spread of task time
 - [] Support more qualifications for one task
 - [] Get the selector for rating to work
 - [] Detect filled fields and adjust time accordingly
