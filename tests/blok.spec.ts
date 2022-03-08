@@ -102,7 +102,7 @@ test('BLok', async ({ page }) => {
       const taskMapIndex: number[] = Array.from(taskMap.keys()); // index map for random access
 
       // get random task from taskMap
-      const randInt: number = (Math.random() * (taskMapIndex.length + 1)) << 0;
+      const randInt: number = (Math.random() * taskMapIndex.length) << 0;
       const taskID: number = taskMapIndex[randInt]; // bitwise operation converts to integer
       
       dayIDs.push(taskID.toString());
