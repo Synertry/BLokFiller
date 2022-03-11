@@ -38,6 +38,10 @@ git clone https://github.com/Synertry/BLokFiller.git
 ```
 npm i
 ```
+6. Lastly run once this once, to be sure the browsers are installed
+```
+npx playwright install
+```
 
 You now have the working script ready.
 
@@ -87,10 +91,10 @@ Having a big list can lead to undesired side-effects.
 - [x] Swap content array with hashmap for less iteration
 - [x] Write manual/README
 - [x] Have at least ~~100~~ 70 generic tasks with proper spread of task time
-- [] Support more qualifications for one task
-- [] Get the selector for rating to work
-- [] Detect filled fields and adjust time accordingly
-- ~~[] Oneclick-installer~~
+- [x] Support more qualifications for one task
+- [ ] Get the selector for rating to work
+- [ ] Detect filled fields and adjust time accordingly
+- ~~[ ] Oneclick-installer~~
 
 
 ## Footnotes
