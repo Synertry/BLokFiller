@@ -142,11 +142,12 @@ for (const day of weekdays) { // loop days
     dayTasks.set(dayTasksIndex, dayCatTasks);
     dayTasksIndex++;
   }
-
+  commentStr = commentStr.slice(0, -1); //unnecessary seperator
   commentStr += '};';
   
   contentMap.set(day, dayTasks);
 }
+commentStr = commentStr.slice(0, -1); //unnecessary end seperator
 
 
 // main 
