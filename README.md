@@ -67,7 +67,11 @@ _You can also use firefox or safari_
 
 After a short compiling time a browser windows should open and you will land logged in on the BLok homepage
 Navigate **manually** to an empty/new week and resume the execution in the Playwright inspector (click the green arrow at the top).
-The filling will stop at the end. you can close the browser and inspector and repeat for another week to fill.
+The browser will close automatically after finishing to fill.
+You have to manually release the week.
+_Currently if the filling the filling lags, then a time field will be skipped. Check these by inputting the missing hours sum up to the max allowed time, e.g. 8 hours._
+
+Repeat for another week to fill.
 
 
 ## Ressources
@@ -92,6 +96,7 @@ Having a big list can lead to undesired side-effects.
 - [x] Write manual/README
 - [x] Have at least ~~100~~ 70 generic tasks with proper spread of task time
 - [x] Support more qualifications for one task
+- [ ] Auto-release when no time fields has been skipped.
 - [ ] Get the selector for rating to work
 - [ ] Detect filled fields and adjust time accordingly
 - ~~[ ] Oneclick-installer~~
