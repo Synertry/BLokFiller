@@ -6,6 +6,8 @@
 
 Automatically fills your online trainee report book on [BLok](https://www.online-ausbildungsnachweis.de/)[^1].
 
+![BLokFiller Demo](https://github.com/Synertry/Media/blob/main/GIF/BLokFillerDemo.gif)
+
 
 ## Requirements
 
